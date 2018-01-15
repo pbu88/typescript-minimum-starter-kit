@@ -1,0 +1,17 @@
+{
+  "name": "Typescript Minimalist Starter Kit",
+  "version": "1.0.0",
+  "description": "An absolute (almost ridicule) minimalist starter kit for a typescript app",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -r dist;tsc",
+    "test": "jest dist/tests/**/*.js",
+    "start": "node dist/src/index.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "jest": "^22.1.1",
+    "typescript": "^2.6.2"
+  },
+  "author": "Paulo Bu <paulobu88@gmail.com>"
+}
